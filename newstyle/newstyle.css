@@ -1,0 +1,130 @@
+.bts-sio {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 100px;
+  min-height: 100vh;
+}
+.bts-sio .wrapper {
+  width: calc(100% - 200px);
+  max-width: calc(100% - 200px);
+}
+.bts-sio .wrapper .image-texte {
+  border: 1px gray solid;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.bts-sio .wrapper .image-texte.gauche {
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
+  text-align: right;
+}
+.bts-sio .wrapper .image-texte h2 {
+  color: var(--yellow);
+}
+.bts-sio .wrapper .image-texte .texte {
+  max-width: 50%;
+  font-size: 26px;
+}
+.bts-sio .wrapper .image-texte .texte h2 {
+  text-align: left;
+}
+.bts-sio .wrapper .image-texte .texte ul {
+  text-align: left;
+}
+.bts-sio .wrapper .image-texte .image-container {
+  max-width: 40%;
+  max-height: 500px;
+  overflow: hidden;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bts-sio .wrapper .image-texte .image-container image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.bts-sio .title {
+  margin-left: auto;
+}
+.bts-sio .texte {
+  margin-left: auto;
+}
+
+@media (max-width: 991.98px) {
+  .bts-sio .wrapper .image-texte .texte {
+    max-width: 100%;
+  }
+  .bts-sio .wrapper .image-texte .image-container {
+    display: none;
+  }
+}
+#entreprise-section p {
+  font-size: 26px;
+}
+
+#info-section .texte-intro p {
+  font-size: 26px;
+}
+#info-section .img-about {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 450px;
+}
+#info-section .btn-bts-sio {
+  margin-left: auto;
+}
+
+.projets-card {
+  max-width: 30%;
+  border: 1px grey solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 18px;
+}
+.projets-card img {
+  width: 100%;
+}
+.projets-card .projets-texte {
+  margin: 10px;
+  color: white;
+}
+
+.single {
+  margin-top: 100px;
+}
+.single .wrapper {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.single .single-container {
+  margin-top: 50px;
+}
+.single .single-container .image-principal {
+  margin-bottom: 50px;
+}
+.single .single-container .image-principal img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single .single-container h1 {
+  font-size: 66px;
+  text-align: center;
+}
+.single .single-container ul li {
+  font-size: 26px;
+  list-style: none;
+}
+.single .single-container ul li::before {
+  content: "- ";
+}
+
+footer .questions {
+  width: 500px;
+  max-width: 500px;
+  margin-left: auto;
+}/*# sourceMappingURL=newstyle.css.map */
