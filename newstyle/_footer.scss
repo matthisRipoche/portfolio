@@ -1,6 +1,10 @@
-footer .questions {
-    width: 500px;
-    max-width: 500px;
+footer {
+    padding-bottom: 0 !important;
 
-    margin-left: auto;
+    .questions {
+        width: 500px;
+        max-width: 500px;
+
+        margin-left: auto;
+    }
 }

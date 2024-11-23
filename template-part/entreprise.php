@@ -3,7 +3,6 @@
         <div class="row justify-content-center py-5 mt-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
                 <h1 class="big big-2">Entreprise</h1>
-                <h2 class="mb-4">Studio Stack</h2>
                 <img src="images/logo-studio-stack.svg" alt="">
                 <p>
                     Dans le monde du développement web, je suis fier de faire partie de StudioStack, une petite mais dynamique entreprise spécialisée dans la création de sites internet. Avec une équipe composée de deux experts passionnés, nous nous efforçons de repousser les limites de la conception web pour offrir à nos clients des solutions uniques et efficaces.

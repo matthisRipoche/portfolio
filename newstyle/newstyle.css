@@ -1,3 +1,7 @@
+body {
+  background: black;
+}
+
 .bts-sio {
   display: flex !important;
   justify-content: center;
@@ -63,10 +67,15 @@
 }
 #entreprise-section p {
   font-size: 26px;
+  color: white;
+}
+#entreprise-section img {
+  margin-bottom: 50px;
 }
 
 #info-section .texte-intro p {
   font-size: 26px;
+  color: white;
 }
 #info-section .img-about {
   border-radius: 50%;
@@ -123,6 +132,9 @@
   content: "- ";
 }
 
+footer {
+  padding-bottom: 0 !important;
+}
 footer .questions {
   width: 500px;
   max-width: 500px;

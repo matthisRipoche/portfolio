@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preload" href="css/styles.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="css/styles.css">
+    </noscript>
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -38,7 +44,6 @@
                 <ul class="navbar-nav nav ml-auto">
                     <li class="nav-item"><a href="/portfolio" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="/portfolio/?nav=entreprise-section" class="nav-link"><span>Entreprise</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=projects-section" class="nav-link"><span>Projets</span></a></li>
                     <li class="nav-item"><a href="/portfolio/?nav=travaux-section" class="nav-link"><span>Travaux</span></a></li>
                     <li class="nav-item"><a href="/portfolio/?nav=veille-section" class="nav-link"><span>Veilles</span></a></li>
                     <li class="nav-item"><a href="/portfolio/?nav=skills-section" class="nav-link"><span>Compétences</span></a></li>

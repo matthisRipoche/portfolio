@@ -28,9 +28,6 @@ include_once('header.php');
                     <li>
                         Créer un back office compréhensible pour le client
                     </li>
-                    <li>
-
-                    </li>
                 </ul>
             </div>
         </div>
