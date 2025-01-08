@@ -28,8 +28,4 @@ switch ($page) {
         break;
 }
 
-//include_once('template-part/counter.php');
-
-//include_once('template-part/ftco.php');
-
 include_once('footer.php');

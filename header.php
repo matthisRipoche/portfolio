@@ -42,12 +42,11 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a href="/portfolio" class="nav-link"><span>Home</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=entreprise-section" class="nav-link"><span>Entreprise</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=travaux-section" class="nav-link"><span>Travaux</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=veille-section" class="nav-link"><span>Veilles</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=skills-section" class="nav-link"><span>Compétences</span></a></li>
-                    <li class="nav-item"><a href="/portfolio/?nav=contact-section" class="nav-link"><span>Contact</span></a></li>
+                    <li class="nav-item"><a href="/portfoliobts/?nav=entreprise-section" class="nav-link"><span>Entreprise</span></a></li>
+                    <li class="nav-item"><a href="/portfoliobts/?nav=travaux-section" class="nav-link"><span>Travaux</span></a></li>
+                    <li class="nav-item"><a href="/portfoliobts/?nav=veille-section" class="nav-link"><span>Veilles</span></a></li>
+                    <li class="nav-item"><a href="/portfoliobts/?nav=skills-section" class="nav-link"><span>Compétences</span></a></li>
+                    <li class="nav-item contact"><a href="/portfoliobts/?nav=contact-section" class="nav-link"><span>Contact</span></a></li>
                 </ul>
             </div>
         </div>
