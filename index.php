@@ -1,4 +1,5 @@
 <?php
+
 include_once('header.php');
 
 $page = $_GET['nav'];
@@ -27,9 +28,5 @@ switch ($page) {
         include_once('template-part/contact.php');
         break;
 }
-
-//include_once('template-part/counter.php');
-
-//include_once('template-part/ftco.php');
 
 include_once('footer.php');

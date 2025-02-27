@@ -33,10 +33,7 @@
         </div>
         <div class="counter-wrap ftco-animate d-flex mt-md-3">
             <div class="text">
-                <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p>
-            </div>
-            <div class="text btn-bts-sio">
-                <p><a href="bts-sio.php" class="btn btn-primary py-3 px-3">En savoir plus sur le BTS SIO</a></p>
+                <p><a href="file/cv.pdf" class="btn btn-primary py-3 px-3" download="MonCV.pdf">Download CV</a></p>
             </div>
         </div>
     </div>

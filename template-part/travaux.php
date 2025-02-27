@@ -2,9 +2,7 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <h1 class="big big-2">Travaux</h1>
-                <h2 class="mb-4">Travaux</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <h2 class="mb-4 sousligne">Travaux</h2>
             </div>
         </div>
         <h2>Projets d'entreprise :</h2>
