@@ -35,6 +35,10 @@
             <div class="text">
                 <p><a href="file/cv.pdf" class="btn btn-primary py-3 px-3" download="MonCV.pdf">Download CV</a></p>
             </div>
+
+            <div class="text btn-bts-sio">
+                <p><a href="bts-sio.php" class="btn btn-primary py-3 px-3">En savoir plus sur le BTS SIO</a></p>
+            </div>
         </div>
     </div>
 </section>
