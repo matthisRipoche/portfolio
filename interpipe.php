@@ -7,7 +7,7 @@ include_once('header.php');
             <h1>Les Pros de la petite enfances</h1>
             <a href="http://lespros.dev.pencil-park.com">Visiter le site</a>
             <div class="image-principal">
-                <img src="images/lespros.png" alt="">
+                <img src="/images/lespros.png" alt="">
             </div>
             <div class="content">
                 <div class="taches">

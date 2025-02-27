@@ -6,7 +6,7 @@ include_once('header.php');
         <div class="single-container">
             <h1>BDHPV</h1>
             <div class="image-principal">
-                <img src="images/bdhpv.png" alt="">
+                <img src="/images/bdhpv.png" alt="">
             </div>
             <div class="wysiwyg">
                 <h2>Description du travail :</h2>

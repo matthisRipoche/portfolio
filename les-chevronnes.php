@@ -6,7 +6,7 @@ include_once('header.php');
         <div class="single-container">
             <h1>Les Chevronnés</h1>
             <div class="image-principal">
-                <img src="images/les-chevronnes.png" alt="">
+                <img src="/images/les-chevronnes.png" alt="">
 
             </div>
             <div>
