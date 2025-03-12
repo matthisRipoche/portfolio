@@ -1,5 +1,5 @@
 <?php
-include_once('header.php');
+include_once('layouts/header.php');
 ?>
 <section class="single" id="les-chevronnes">
     <div class="wrapper">
@@ -33,5 +33,5 @@ include_once('header.php');
     </div>
 </section>
 <?php
-include_once('footer.php');
+include_once('layouts/footer.php');
 ?>

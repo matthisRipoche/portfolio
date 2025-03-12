@@ -1,3 +1,7 @@
+<?php
+include_once('layouts/header.php');
+?>
+
 <section class="ftco-section" id="entreprise-section">
     <div class="container">
         <div class="row justify-content-center py-5 mt-5">
@@ -23,3 +27,7 @@
         </div>
     </div>
 </section>
+
+<?php
+include_once('layouts/footer.php');
+?>

@@ -1,3 +1,7 @@
+<?php
+include_once('layouts/header.php');
+?>
+
 <section class="ftco-section repertoire-section ftco-no-pb" id="repertoire-section">
     <div class="container">
         <div class="row justify-content-center mb-5">
@@ -34,3 +38,6 @@
         </div>
     </div>
 </section>
+
+<?php
+include_once('layouts/footer.php');

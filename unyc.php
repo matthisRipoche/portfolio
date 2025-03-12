@@ -5,29 +5,93 @@ include_once('header.php');
     <div class="wrapper">
         <div class="single-container">
             <h1>Unyc</h1>
-            <div class="image-principal">
-                <img src="/images/unyc.png" alt="">
-
+            <!-- Mettre une fleche vers le bas -->
+            <p>Cliquez sur l'image pour voir le site</p>
+            <div class="image-principal position-relative">
+                <a class="ghostlink" href="https://www.unyc.io/" target="_blank"></a>
+                <img src="images/unyc/unyc.png" alt="">
             </div>
-            <div>
+            <div class="wysiwyg">
+                <h2>Présentation du projet</h2>
+                <p>
+                    Dans le cadre de ce projet, j’ai développé un site
+                    <span>WordPress</span> entièrement personnalisé en
+                    utilisant <span>PHP</span> et le plugin
+                    <span>Advanced Custom Fields (ACF)</span>.
+                    L’objectif principal était de faire la refonte
+                    graphique d'un site vitrine en le rendant plus
+                    <span>flexible</span>, évolutive et facile à
+                    maintenir, répondant parfaitement aux besoins
+                    spécifiques du client établie sur la maquette
+                    <span>Figma</span>.
+                </p>
+                <h2>Contexte</h2>
+                <p>
+                    Unyc avait un site déja construit avec le CMS
+                    <span>Drupal</span> et des templates en
+                    <span>blade</span>.
+
+                    <br /><br />
+
+                    <span>Indexel</span>, une agence de communication
+                    digitale, a fait appel à mes services pour faire la
+                    refonte du site avec <span>WordPress</span> et
+                    <span>ACF</span>, afin de le rendre flexible et
+                    maintenable.
+
+                    <br /><br />
+
+                    <br /><br />
+
+                    Le défi consistait à :
+
+                </p>
                 <h2>Description des tâches :</h2>
+
                 <ul>
                     <li>
-                        Lire un projets figma
+                        Installation du <span>Wordpress</span> et du
+                        versionning avec <span>git</span>
                     </li>
                     <li>
-                        installé un wordpress avec les extensions
+                        Creation des premières <span>pages</span> et
+                        évaluation des différents bloques à
+                        réaliser.
                     </li>
                     <li>
-                        mettre en place l'espace de travail (yarn, gulp)
+                        Reproduction des bloques existants (blade)
+                        en <span>PHP</span> avec un
+                        <span>BackOffice</span> utilisant
+                        <span>ACF</span>.
                     </li>
                     <li>
-                        Créer un back office compréhensible pour le client
+                        Creation des bloques plus complexes comme
+                        les carousels en utilisant
+                        <span>Jquery</span> et
+                        <span>slick JS</span>.
                     </li>
                     <li>
-
+                        Finition des différentes pages de la
+                        maquette <span>Figma</span>.
+                    </li>
+                    <li>
+                        Adaptation en
+                        <span>responsive Deesign</span> pour les
+                        mobiles et tablettes selon la maquette
+                        <span>Figma</span>.
+                    </li>
+                    <li>
+                        Gestion des différents
+                        <span>tickets</span> de modification et de
+                        blocs supplémentaire.
                     </li>
                 </ul>
+
+                <h2 class="section-title mb-3">Conclusion :</h2>
+                <p>
+                    Travailler sur Unyc durant les mois d’avril et mai a été une expérience riche en apprentissages. Ce projet de deux mois m’a permis de renforcer mes compétences en PHP et WordPress (ACF), tout en m’adaptant aux contraintes de délais pour améliorer ma productivité. Un autre défi a été de comprendre et d’analyser des pages existantes en Blade, ce qui m’a offert une première approche de ce moteur de templating. Une belle montée en compétences qui m’a rendu plus polyvalent et efficace dans mon travail !
+                </p>
+
             </div>
         </div>
     </div>

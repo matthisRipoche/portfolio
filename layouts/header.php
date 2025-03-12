@@ -27,7 +27,6 @@
     <noscript>
         <link rel="stylesheet" href="/css/styles.css">
     </noscript>
-
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -35,18 +34,18 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="/portfolio">Matthis Ripoche</a>
+            <a class="navbar-brand" href="/">Matthis Ripoche</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
-                    <li class="nav-item"><a href="/portfoliobts/?nav=entreprise-section" class="nav-link"><span>Entreprise</span></a></li>
-                    <li class="nav-item"><a href="/portfoliobts/?nav=travaux-section" class="nav-link"><span>Travaux</span></a></li>
-                    <li class="nav-item"><a href="/portfoliobts/?nav=veille-section" class="nav-link"><span>Veilles</span></a></li>
-                    <li class="nav-item"><a href="/portfoliobts/?nav=skills-section" class="nav-link"><span>Compétences</span></a></li>
-                    <li class="nav-item contact"><a href="/portfoliobts/?nav=contact-section" class="nav-link"><span>Contact</span></a></li>
+                    <li class="nav-item"><a href="/entreprise.php" class="nav-link"><span>Entreprise</span></a></li>
+                    <li class="nav-item"><a href="/travaux.php" class="nav-link"><span>Travaux</span></a></li>
+                    <li class="nav-item"><a href="/veilles.php" class="nav-link"><span>Veilles</span></a></li>
+                    <li class="nav-item"><a href="/skills.php" class="nav-link"><span>Compétences</span></a></li>
+                    <li class="nav-item contact"><a href="/contact.php" class="nav-link"><span>Contact</span></a></li>
                 </ul>
             </div>
         </div>
