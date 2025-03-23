@@ -12,11 +12,11 @@ include_once('layouts/header.php');
 
         <div class="row">
             <div class="projets-card entreprise">
-                <a href="/portfolio/les-chevronnes.php">
-                    <img src="/images/les-chevronnes.png" alt="">
+                <a href="/agents-ia.php">
+                    <img src="/images/agents-ia/agents-ia.png" alt="">
                     <div class="projets-texte">
-                        <h3>Les Chevronnés</h3>
-                        <p>Le projet des chevronnés est mon premier projet wordpress au sein de StudioStack.</p>
+                        <h3>Les agents IA</h3>
+                        <p>Les agents IA sont la nouveauté IA de 2025 !</p>
                     </div>
                 </a>
             </div>
