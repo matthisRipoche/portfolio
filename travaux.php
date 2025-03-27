@@ -20,15 +20,6 @@ include_once('layouts/header.php');
                 </a>
             </div>
             <div class="projets-card entreprise">
-                <a href="/bdhpv.php">
-                    <img src="/images/bdhpv/bdhpv.png" alt="">
-                    <div class="projets-texte">
-                        <h3>BDHPV</h3>
-                        <p>Le projet BDHPV est mon deuxieme projet wordpress au sein de StudioStack.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="projets-card entreprise">
                 <a href="/unyc.php">
                     <img src="/images/unyc/unyc.png" alt="">
                     <div class="projets-texte">
@@ -50,12 +41,12 @@ include_once('layouts/header.php');
                 </a>
             </div>
             <div class="projets-card classe">
-                <a href="/portfolio.php">
+                <a href="/thisportfolio.php">
                     <img src="/images/portfolio/portfolio.png" alt="">
                     <div class="projets-texte">
                         <h3>Ce portfolio</h3>
                         <p>
-                            Ce projet m'a surtout permis de confirmer mes connaissances du html css.</br>
+                            Ce projet m'a permis de confirmer mes connaissances du html css.</br>
                             Mais aussi et surtout de découvrir la mise en production d'un projet web.
                         </p>
                     </div>

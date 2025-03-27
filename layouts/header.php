@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <link rel="preload" href="/css/styles.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="stylesheet" href="/newstyle/newcss.css">
+
     <noscript>
         <link rel="stylesheet" href="/css/styles.css">
     </noscript>

@@ -6,7 +6,7 @@ include_once('layouts/header.php');
     <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2 class="mb-4 sousligne">Travaux</h2>
+                <h2 class="mb-4 sousligne">Veille</h2>
             </div>
         </div>
 

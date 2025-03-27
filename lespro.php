@@ -1,53 +1,96 @@
 <?php
-include_once('header.php');
+include_once('layouts/header.php');
 ?>
 <section class="single" id="les-chevronnes">
     <div class="wrapper">
         <div class="single-container">
-            <h1>Les Pros de la petite enfances</h1>
-            <a href="http://lespros.dev.pencil-park.com">Visiter le site</a>
-            <div class="image-principal">
-                <img src="/images/lespros.png" alt="">
+            <h1>Les Pros de la Petite Enfance</h1>
+
+            <p>Cliquez sur l'image pour voir le site</p>
+            <div class="image-principal position-relative">
+                <a class="ghostlink" href="http://lespros.dev.pencil-park.com" target="_blank"></a>
+                <img src="/images/lespros/lespros.png" alt="">
             </div>
-            <div class="content">
+            <div class="wysiwyg">
                 <div class="taches">
                     <div class="desc-projet">
                         <h2>Description du projet :</h2>
                         <p>
-                            "Les pros de la petite enfance" est un gros projet fait pendant l'été, l'objectif du client était de refaire son site, anciennement sur le CMS Drupal, en le rendant plus flexible avec Wordpress. Et par la suite importer toute les donnée de l'ancien site vers le nouveau.
+                            Les Pros de la Petite Enfance est un projet d'envergure réalisé durant l’été. L’objectif du client était de refondre son site, initialement développé sous le CMS Drupal, afin de le rendre plus flexible et évolutif avec WordPress. Un des défis majeurs du projet a été la migration complète des données de l’ancien site vers la nouvelle plateforme.
                         </p>
                     </div>
+
+                    <h2>Contexte</h2>
+                    <p>
+                        Le site des Pros de la Petite Enfance était déjà construit sous le CMS
+                        <span>Drupal</span>.
+
+                        <br /><br />
+
+                        <span>Pencil Park</span>, une agence de communication
+                        digitale, a sollicité notre expertise pour réaliser
+                        la refonte du site en <span>WordPress</span> avec <span>ACF</span>,
+                        afin d’améliorer sa flexibilité et sa maintenabilité.
+                    </p>
 
                     <div class="taches">
                         <h2>Description des tâches :</h2>
                         <ul>
                             <li>
-                                Lire un projets Figma.
+                                Lecture et analyse du projet sur <span>Figma</span>.
                             </li>
                             <li>
-                                Installé un Wordpress avec les extensions.
+                                Installation et configuration de <span>WordPress</span> et des extensions <span>ACF</span>.
                             </li>
                             <li>
-                                Creation de blocs acf avec wordpress et son back-office.
+                                Développement de blocs personnalisés avec <span>ACF</span> et intégration au back-office WordPress.
                             </li>
                             <li>
-                                Creation de de formulaires de login et register avec la gestion de ce formulaire via fetch/requête ajax.
+                                Création des formulaires de connexion et d'inscription avec gestion via <span>fetch</span>/requête AJAX.
                             </li>
                             <li>
-                                Creation de de formulaires d'abonnement avec la gestion de ce formulaire via fetch/requête ajax.
+                                Gestion des types de contenus (podcasts, articles, vidéos, etc.).
                             </li>
                             <li>
-                                Intégration de l'api Stripe pour gérer les paiments en ligne.
+                                Organisation des dossiers d’articles et configuration du menu.
+                            </li>
+                            <li>
+                                Gestion des <span>rôles utilisateurs</span> pour restreindre l’accès à certains contenus.
+                            </li>
+                            <li>
+                                Développement de formulaires d’abonnement et gestion des données via <span>fetch</span>/requête AJAX.
+                            </li>
+                            <li>
+                                Intégration de l’API <span>Stripe</span> pour la gestion des paiements en ligne.
+                            </li>
+                            <li>
+                                Développement de <span>scripts</span> pour automatiser la migration des données de l’ancien site vers le nouveau (+4000 articles).
                             </li>
                         </ul>
                     </div>
 
                     <div class="avis">
-                        <h2>Mon avis sur le projet :</h2>
+                        <h2>Conclusion :</h2>
                         <p>
-                            Les pros de la petite enfance a été un projet très lourd qui m'a value un petit peut de stresse, la gestion backend à été compliqué a mettre en place étant la première fois que je touchais au backend d'un projet. Aussi, je trouve qu'il y a eu un manque de communication avec le client qui a mené a de grosses hésitations sur certaines fonctionnalité du site, comme la structure des url pour l'impact SEO. Maintenant, je suis quand même très content d'avoir eu ce projet, car cela m'a beaucoup appris nottement sur le coté backend et gestion de comptes utilisateur et de gestion d'abonnements.
+                            "Les Pros de la Petite Enfance" a été un projet ambitieux qui a représenté un véritable défi technique, notamment en raison de la complexité de la gestion backend, un domaine que j’ai exploré pour la première fois. La migration des données et la gestion des utilisateurs ont nécessité une approche rigoureuse et méthodique.
+
+                            De plus, un manque de communication avec le client a parfois entraîné des hésitations sur certaines fonctionnalités clés, comme la structure des URL et son impact sur le SEO. Malgré ces défis, ce projet m’a permis d’acquérir une solide expérience en backend, en gestion des comptes utilisateurs et en gestion des abonnements. Une expérience formatrice et enrichissante qui m’a permis de monter en compétences sur de nombreux aspects du développement web.
                         </p>
                     </div>
+
+                    <h2>Compétences développées :</h2>
+                    <p>
+                        <a class="link" href="/skills.php"><span>Gérer le patrimoine informatique :</span></a> Gestion des comptes utilisateurs, des abonnements et des données du site.
+                    </p>
+                    <p>
+                        <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Conception d’un site web sur mesure, responsive et facilement administrable, améliorant ainsi la visibilité du client sur internet.
+                    </p>
+                    <p>
+                        <a class="link" href="/skills.php"><span>Répondre aux incidents et aux demandes d’assistance et d’évolution :</span></a> Mise en place d’un Trello pour suivre et traiter les demandes du client en matière d’évolution et de corrections.
+                    </p>
+                    <p>
+                        <a class="link" href="/skills.php"><span>Mettre à disposition des utilisateurs un service informatique :</span></a> Intégration de solutions de paiement et de gestion des abonnements pour automatiser les services proposés par le client.
+                    </p>
 
                 </div>
 
@@ -55,6 +98,7 @@ include_once('header.php');
         </div>
     </div>
 </section>
+
 <?php
-include_once('footer.php');
+include_once('layouts/footer.php');
 ?>
