@@ -23,6 +23,8 @@ include_once('layouts/header.php');
                 <p>
                     Explorez notre portfolio pour découvrir quelques-uns de nos projets récents et n'hésitez pas à nous contacter pour discuter de la manière dont nous pouvons vous aider à atteindre vos objectifs en ligne.
                 </p>
+
+                <img src="images/shemastudiostack.png" alt="">
             </div>
         </div>
     </div>

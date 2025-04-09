@@ -12,6 +12,7 @@ include_once('layouts/header.php');
                 <img src="images/les-chevronnes/les-chevronnes.png" alt="">
             </div>
             <div class="wysiwyg">
+
                 <h2 class="section-title mb-3">Présentation du projet :</h2>
                 <p>
                     Dans le cadre de ce projet, j’ai développé un site
@@ -24,6 +25,8 @@ include_once('layouts/header.php');
                     besoins spécifiques du client établie sur la
                     maquette <span>Figma</span>.
                 </p>
+
+
 
                 <h2>Contexte :</h2>
                 <p>
@@ -51,6 +54,15 @@ include_once('layouts/header.php');
                     leur audience.
 
                     <br /><br />
+                </p>
+
+
+                <h2>Les compétences développées :</h2>
+                <p>
+                    <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Mise en place d’un site web sur mesure, avec un design responsive et une gestion de contenu facile, ce qui permet d'améliorer la visibilité du client sur internet.
+                </p>
+                <p>
+                    <a class="link" href="/skills.php"><span>Répondre aux incidents et aux demandes d’assistance et d’évolution :</span></a> Mise en place d'un Trello afin de gérer les demandes du client en cas de défaut ou de besoin d'évolution.
                 </p>
 
                 <h2>Description des tâches :</h2>
@@ -100,13 +112,7 @@ include_once('layouts/header.php');
 
                 <br><br>
 
-                <h2>Les compétences développées :</h2>
-                <p>
-                    <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Mise en place d’un site web sur mesure, avec un design responsive et une gestion de contenu facile, ce qui permet d'améliorer la visibilité du client sur internet.
-                </p>
-                <p>
-                    <a class="link" href="/skills.php"><span>Répondre aux incidents et aux demandes d’assistance et d’évolution :</span></a> Mise en place d'un Trello afin de gérer les demandes du client en cas de défaut ou de besoin d'évolution.
-                </p>
+
 
             </div>
         </div>

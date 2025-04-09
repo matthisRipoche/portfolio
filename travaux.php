@@ -40,6 +40,25 @@ include_once('layouts/header.php');
                     </div>
                 </a>
             </div>
+            <div class="projets-card entreprise position-relative">
+                <a class="ghostlink" href="/lesincos.php"></a>
+                <img src="/images/lesincos/lesincos.png" alt="">
+                <div class="projets-texte">
+                    <h3>Les incos "évènements"</h3>
+                    <p>Première réalisation d'une partie d'un projet avec Symfony.</p>
+                </div>
+            </div>
+            <div class="projets-card entreprise">
+                <a href="/qrscan.php">
+                    <img src="/images/qrscan/qrscan.png" alt="">
+                    <div class="projets-texte">
+                        <h3>QRscan</h3>
+                        <p>Conception et réalisation d'une application mobile avec React Native et Expo</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row">
             <div class="projets-card classe">
                 <a href="/thisportfolio.php">
                     <img src="/images/portfolio/portfolio.png" alt="">
@@ -53,15 +72,6 @@ include_once('layouts/header.php');
                 </a>
             </div>
             <div class="projets-card classe">
-                <a href="/calculetteimmo.php">
-                    <img src="/images/calculetteimmo/calculetteimmo.png" alt="">
-                    <div class="projets-texte">
-                        <h3>Calculette immo</h3>
-                        <p>Ce projet m'a permis d'apprendre à utiliser le javascript de manière plus avancé.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="projets-card classe">
                 <a href="/signandwork.php">
                     <img src="/images/signandwork/signandwork.png" alt="">
                     <div class="projets-texte">
@@ -71,20 +81,11 @@ include_once('layouts/header.php');
                 </a>
             </div>
             <div class="projets-card classe">
-                <a href="/meteo-react.php">
-                    <img src="/images/meteoreact/meteoreact.png" alt="">
+                <a href="/clickneat.php">
+                    <img src="/images/clickneat/clickneat.png" alt="">
                     <div class="projets-texte">
-                        <h3>Meteo React</h3>
-                        <p>Premier projet React en classe.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="projets-card entreprise">
-                <a href="/lesincos.php">
-                    <img src="/images/lesincos/lesincos.png" alt="">
-                    <div class="projets-texte">
-                        <h3>Les incos "évènements"</h3>
-                        <p>Première réalisation d'une partie d'un projet avec Symfony.</p>
+                        <h3>ClicknEat</h3>
+                        <p>Un projet de classe fait avec Laravel.</p>
                     </div>
                 </a>
             </div>
