@@ -1,113 +1,73 @@
 <?php
 include_once('layouts/header.php');
 ?>
-<section class="single" id="unyc">
+<section class="single" id="clickneat">
     <div class="wrapper">
         <div class="single-container">
-            <h1>Les chevronnés</h1>
-            <!-- Mettre une fleche vers le bas -->
+            <h1>ClickNeat</h1>
+            <!-- Mettre une flèche vers le bas -->
             <p>Cliquez sur l'image pour voir le site</p>
             <div class="image-principal position-relative">
-                <a class="ghostlink" href="https://www.les-chevronnes.fr/" target="_blank"></a>
-                <img src="images/les-chevronnes/les-chevronnes.png" alt="">
+                <a class="ghostlink" href="https://www.clickneat.com/" target="_blank"></a>
+                <img src="images/clickneat/clickneat.png" alt="">
             </div>
             <div class="wysiwyg">
-                <h2 class="section-title mb-3">Présentation du projet :</h2>
-                <p>
-                    Dans le cadre de ce projet, j’ai développé un site
-                    <span>WordPress</span> entièrement personnalisé en
-                    utilisant <span>PHP</span> et le plugin
-                    <span>Advanced Custom Fields (ACF)</span>.
-                    L’objectif principal était de concevoir une
-                    plateforme informative <span>flexible</span>, évolutive et
-                    facile à maintenir, répondant parfaitement aux
-                    besoins spécifiques du client établie sur la
-                    maquette <span>Figma</span>.
-                </p>
-
                 <h2>Contexte :</h2>
                 <p>
-                    Les chevronnés a été mon tout premier projet
-                    d'entreprise en tant que développeur web.
-
-                    <br /><br />
-
-                    <span>Indexel</span>, une agence de communication
-                    digitale, a fait appel à nos services pour développer
-                    un site <span>WordPress</span> sur mesure destiné à
-                    <span>Les Chevronnés</span>, une entreprise de
-                    formation de bricolage à domicile.
-
-                    <br /><br />
-
-                    Le projet a démarré de <span>zéro</span>, sans
-                    base existante, ce qui a permis de créer une
-                    solution entièrement personnalisée, répondant
-                    précisément aux besoins de
-                    <span>Les Chevronnés</span>. L'objectif principal
-                    était de développer un site moderne et fonctionnel,
-                    permettant à l'équipe de valoriser leur expertise,
-                    partager leur contenu et interagir facilement avec
-                    leur audience.
-
-                    <br /><br />
+                    Ce projet a été conçu dans le cadre de ma formation en alternance afin de consolider mes compétences en développement web. Il s'agit d'un cas concret d'application métier, avec gestion multi-utilisateurs, rôles, données relationnelles, et logique de commande avancée. Il m’a permis d’appliquer les concepts fondamentaux de Laravel, tout en développant une interface moderne et responsive. J’ai travaillé en autonomie sur l’entièreté du projet, de l’architecture à la mise en ligne.
                 </p>
+                <h2 class="section-title mb-3">Présentation du projet :</h2>
+                <p>
+                    <strong>ClickNeat</strong> est une application web full-stack de commande de restauration, développée avec <span>Laravel (PHP)</span>. Elle permet aux utilisateurs de parcourir différents restaurants, de composer leur commande via un panier dynamique, et de suivre l’état de leur commande en temps réel. Le tout est géré via un back-office pour les gestionnaires de restaurants, le tout avec une structure solide et scalable.
+                </p>
+
+
 
                 <h2>Description des tâches :</h2>
                 <ul>
                     <li>
-                        Installation du <span>Wordpress</span> et du
-                        versionning avec <span>git</span>
+                        Création des <span>routes</span>
                     </li>
                     <li>
-                        Création des premières <span>pages</span> et
-                        évaluation des différents bloques à
-                        réaliser.
+                        Sécurisation de l'accès via <span>middlewares</span> Laravel pour chaque rôle
                     </li>
                     <li>
-                        Création des bloques existants
-                        en <span>PHP</span> avec un
-                        <span>BackOffice</span> utilisant
-                        <span>ACF</span>.
+                        Mise en place de l’<span>authentification Laravel</span> avec gestion des rôles (utilisateur / gestionnaire)
                     </li>
                     <li>
-                        Création des bloques plus complexes comme
-                        les carousels en utilisant
-                        <span>Jquery</span> et
-                        <span>slick JS</span>.
+                        Création des <span>modèles Eloquent</span> : User, Restaurant, Category, Item, Order, OrderItem
                     </li>
                     <li>
-                        Finition des différentes pages de la
-                        maquette <span>Figma</span>.
+                        Développement des pages de navigation : liste des restaurants, catégories, articles, détail d’un plat
                     </li>
                     <li>
-                        Adaptation en
-                        <span>responsive Deesign</span> pour les
-                        mobiles et tablettes selon la maquette
-                        <span>Figma</span>.
+                        Intégration d’un <span>panier dynamique</span> (session utilisateur) et validation de commande
                     </li>
                     <li>
-                        Gestion des différents
-                        <span>tickets</span> de modification et de
-                        blocs supplémentaire.
+                        Dashboard gestionnaire : affichage et suivi des commandes en <span>temps réel</span>
+                    </li>
+                    <li>
+                        Utilisation de <span>Blade</span> pour les vues et passage de données dynamiques
                     </li>
                 </ul>
 
                 <h2 class="section-title mb-3">Conclusion :</h2>
                 <p>
-                    Ce projet m’a permis de développer un site <span>WordPress</span> sur mesure, en appliquant mes compétences en <span>PHP</span>, <span>ACF</span>, <span>Jquery</span> et <span>responsive design</span>. J’ai appris à gérer un projet de A à Z, à respecter une maquette <span>Figma</span>, et à collaborer efficacement via <span>Git</span> et la gestion de <span>tickets</span>. Une expérience formatrice qui m’a fait monter en compétences et livré un site moderne, évolutif et adapté aux besoins du client.
+                    ClickNeat m’a permis de passer un cap en tant que développeur full-stack. J’ai pu structurer une application complète en Laravel, en comprenant en profondeur la logique MVC, les migrations, les relations entre modèles, et la sécurisation d’une plateforme. C’est un projet concret, complet, et professionnalisant, qui m’a apporté une vraie confiance technique pour aborder des applications plus complexes.
                 </p>
 
                 <br><br>
 
                 <h2>Les compétences développées :</h2>
                 <p>
-                    <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Mise en place d’un site web sur mesure, avec un design responsive et une gestion de contenu facile, ce qui permet d'améliorer la visibilité du client sur internet.
+                    <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Création d’une plateforme web responsive, intuitive et opérationnelle pour faciliter la commande dans la restauration.
                 </p>
                 <p>
-                    <a class="link" href="/skills.php"><span>Répondre aux incidents et aux demandes d’assistance et d’évolution :</span></a> Mise en place d'un Trello afin de gérer les demandes du client en cas de défaut ou de besoin d'évolution.
+                    <a class="link" href="/skills.php"><span>Mettre en place ou maintenir une solution applicative :</span></a> Conception d’une architecture MVC robuste, avec gestion des rôles, données relationnelles, logique métier et interface claire.
                 </p>
-
+                <p>
+                    <a class="link" href="/skills.php"><span>Travailler en autonomie et gérer un projet technique :</span></a> Réalisation du projet de A à Z : structure, développement, debug, mise en ligne, évolutions futures.
+                </p>
             </div>
         </div>
     </div>

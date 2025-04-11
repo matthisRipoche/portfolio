@@ -6,16 +6,20 @@ include_once('layouts/header.php');
     <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2 class="mb-4 sousligne">Travaux</h2>
+                <h2 class="mb-4 sousligne">Réalisations</h2>
             </div>
         </div>
+        <h3>Entreprise</h3>
         <div class="row">
+
             <div class="projets-card entreprise">
                 <a href="/les-chevronnes.php">
                     <img src="/images/les-chevronnes/les-chevronnes.png" alt="">
                     <div class="projets-texte">
                         <h3>Les Chevronnés</h3>
-                        <p>Le projet des chevronnés est mon premier projet wordpress au sein de StudioStack.</p>
+                        <p>
+                            Les Chevronnés a marqué le début de mon parcours professionnel en tant que développeur web, avec la réalisation d’un site WordPress sur mesure.
+                        </p>
                     </div>
                 </a>
             </div>
@@ -24,7 +28,9 @@ include_once('layouts/header.php');
                     <img src="/images/unyc/unyc.png" alt="">
                     <div class="projets-texte">
                         <h3>Unyc</h3>
-                        <p>Le projet de Unyc est mon premier projet wordpress au sein de StudioStack.</p>
+                        <p>
+                            Unyc, c’est la refonte d’un site vitrine pro et moderne, pensée pour offrir plus de flexibilité et une meilleure expérience d’édition côté client.
+                        </p>
                     </div>
                 </a>
             </div>
@@ -34,8 +40,7 @@ include_once('layouts/header.php');
                     <div class="projets-texte">
                         <h3>Les Pros de la Petite Enfance</h3>
                         <p>
-                            Le projet des pros est mon plus gros projet wordpress au sein de StudioStack.
-                            Il m'a fait me pencher sur le backend d'un projet.
+                            Cette réalisation ambitieuse m’a permis aussi de monter en compétences sur le back-end et les logiques d’abonnement.
                         </p>
                     </div>
                 </a>
@@ -45,7 +50,9 @@ include_once('layouts/header.php');
                 <img src="/images/lesincos/lesincos.png" alt="">
                 <div class="projets-texte">
                     <h3>Les incos "évènements"</h3>
-                    <p>Première réalisation d'une partie d'un projet avec Symfony.</p>
+                    <p>
+                        Cette réalisation a consisté à enrichir un site existant développé sous Symfony en y intégrant une section dédiée aux événements.
+                    </p>
                 </div>
             </div>
             <div class="projets-card entreprise">
@@ -53,11 +60,14 @@ include_once('layouts/header.php');
                     <img src="/images/qrscan/qrscan.png" alt="">
                     <div class="projets-texte">
                         <h3>QRscan</h3>
-                        <p>Conception et réalisation d'une application mobile avec React Native et Expo</p>
+                        <p>
+                            Cette réalisation s’inscrit dans une volonté de moderniser la gestion des présences lors d’événements organisés par PageEduc, une librairie spécialisée dans la littérature jeunesse.
+                        </p>
                     </div>
                 </a>
             </div>
         </div>
+        <h3 class="mt-5">Classe</h3>
         <div class="row">
             <div class="projets-card classe">
                 <a href="/thisportfolio.php">
@@ -65,8 +75,7 @@ include_once('layouts/header.php');
                     <div class="projets-texte">
                         <h3>Ce portfolio</h3>
                         <p>
-                            Ce projet m'a permis de confirmer mes connaissances du html css.</br>
-                            Mais aussi et surtout de découvrir la mise en production d'un projet web.
+                            Le portfolio a été construit à partir d’un template librement disponible, puis adapté pour répondre à des besoins spécifiques, offrant ainsi une présentation claire et fonctionnelle de mon parcours et de mes compétences techniques.
                         </p>
                     </div>
                 </a>
@@ -76,7 +85,9 @@ include_once('layouts/header.php');
                     <img src="/images/signandwork/signandwork.png" alt="">
                     <div class="projets-texte">
                         <h3>Sign and Work</h3>
-                        <p>Ce projet est un projet de classe permettant la pratique de l'orienté objet en php.</p>
+                        <p>
+                            Sign and Work est une réalisation de classe conçu pour digitaliser la gestion des présences des étudiants, permettant à chaque étudiant de signer sa présence par matière et classe, avec une interface claire et un tableau de bord de gestion pour l'administration.
+                        </p>
                     </div>
                 </a>
             </div>
@@ -85,7 +96,9 @@ include_once('layouts/header.php');
                     <img src="/images/clickneat/clickneat.png" alt="">
                     <div class="projets-texte">
                         <h3>ClicknEat</h3>
-                        <p>Un projet de classe fait avec Laravel.</p>
+                        <p>
+                            "ClickNeat" est une application de commande de restauration en ligne développée avec Laravel, intégrant gestion des utilisateurs, panier dynamique et suivi des commandes en temps réel, réalisée dans le cadre de ma formation en alternance.
+                        </p>
                     </div>
                 </a>
             </div>

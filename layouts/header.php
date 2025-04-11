@@ -44,7 +44,7 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
                     <li class="nav-item"><a href="/entreprise.php" class="nav-link"><span>Entreprise</span></a></li>
-                    <li class="nav-item"><a href="/travaux.php" class="nav-link"><span>Travaux</span></a></li>
+                    <li class="nav-item"><a href="/realisations.php" class="nav-link"><span>Réalisations</span></a></li>
                     <li class="nav-item"><a href="/veilles.php" class="nav-link"><span>Veilles</span></a></li>
                     <li class="nav-item"><a href="/skills.php" class="nav-link"><span>Compétences</span></a></li>
                     <li class="nav-item contact"><a href="/contact.php" class="nav-link"><span>Contact</span></a></li>
