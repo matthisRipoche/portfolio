@@ -60,7 +60,7 @@ include_once('layouts/header.php');
 
                 <h2>Les compétences développées :</h2>
                 <p>
-                    <a class="link" href="/skills.php"><span>Développer la présence en ligne de l’organisation :</span></a> Création d’une plateforme web responsive, intuitive et opérationnelle pour faciliter la commande dans la restauration.
+                    <a class="link" href="/skills.php"><span>Gérer le patrimoine informatique</span></a> Gestions de rôles afin de gérer les accès.
                 </p>
                 <p>
                     <a class="link" href="/skills.php"><span>Mettre en place ou maintenir une solution applicative :</span></a> Conception d’une architecture MVC robuste, avec gestion des rôles, données relationnelles, logique métier et interface claire.

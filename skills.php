@@ -14,23 +14,50 @@ include_once('layouts/header.php');
                 <h2>Compétence 1 : Gérer le patrimoine informatique</h2>
                 <br>
                 <ul>
-                    <li>Sign and Work</li>
-                    <li>ClicknEat</li>
-                    <li>Les pros de la petite enfance</li>
+                    <li><a href="/signandwork.php">Sign and Work</a></li>
+                    <li><a href="/clickneat.php">ClicknEat</a></li>
+                    <li><a href="/lesprosdelapetiteenfance.php">Les pros de la petite enfance</a></li>
                 </ul>
                 <h2>Compétence 2 : Répondre aux incidents et aux demandes d’assistance et d’évolution</h2>
+                <ul>
+                    <li><a href="/les-chevronnes.php">Les Chevronnés</a></li>
+                    <li><a href="/unyc.php">UNYC</a></li>
+                    <li><a href="/lespro.php">Les pros de la petite enfance</a></li>
+                </ul>
                 <br>
                 <br>
                 <h2>Compétence 3 : Développer la présence en ligne de l’organisation</h2>
+                <ul>
+                    <li><a href="/thisportfolio.php">Ce Portfolio</a></li>
+                    <li><a href="/les-chevronnes.php">Les Chevronnés</a></li>
+                    <li><a href="/unyc.php">UNYC</a></li>
+                    <li><a href="/thislespro.php">Les pros de la petite enfance</a></li>
+                </ul>
                 <br>
                 <br>
                 <h2>Compétence 4 : Travailler en mode projet</h2>
+                <ul>
+                    <li><a href="/signandwork.php">Sign and Work</a></li>
+                    <li><a href="/clickneat.php">ClicknEat</a></li>
+                </ul>
                 <br>
                 <br>
                 <h2>Compétence 5 : Mettre à disposition des utilisateurs un service informatique</h2>
+                <ul>
+                    <li><a href="/signandwork.php">Sign and Work</a></li>
+                    <li><a href="/clickneat.php">ClicknEat</a></li>
+                    <li><a href="/lespro.php">Les pros de la petite enfance</a></li>
+                    <li><a href="/lesincos.php">Les incorruptibles</a></li>
+                    <li><a href="/qrscan.php">QRScan</a></li>
+                </ul>
                 <br>
                 <br>
                 <h2>Compétence 6 : Organiser son développement professionnel</h2>
+                <ul>
+                    <li><a href="/thisportfolio.php">Ce Portfolio</a></li>
+                    <li><a href="/lesincos.php">Les incorruptibles</a></li>
+                    <li><a href="/qrscan.php">QRScan</a></li>
+                </ul>
             </div>
         </div>
     </div>

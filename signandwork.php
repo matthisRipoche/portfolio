@@ -61,6 +61,9 @@ include_once('layouts/header.php');
                 <p>
                     <a class="link" href="/skills.php"><span>Gestion des bases de données et des utilisateurs :</span></a> Mise en place d'une base de données efficace pour gérer les signatures et les utilisateurs, avec un système de validation des données.
                 </p>
+                <p>
+                    <a class="link" href="/skills.php"><span>Travailler en mode projet :</span></a> Planification et gestion d'un projet complet de développement web, conception de base de données, développement, test et déploiement.
+                </p>
             </div>
         </div>
     </div>

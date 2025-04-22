@@ -47,7 +47,6 @@
                     <li class="nav-item"><a href="/realisations.php" class="nav-link"><span>Réalisations</span></a></li>
                     <li class="nav-item"><a href="/veilles.php" class="nav-link"><span>Veilles</span></a></li>
                     <li class="nav-item"><a href="/skills.php" class="nav-link"><span>Compétences</span></a></li>
-                    <li class="nav-item contact"><a href="/contact.php" class="nav-link"><span>Contact</span></a></li>
                 </ul>
             </div>
         </div>

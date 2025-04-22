@@ -28,12 +28,10 @@
                 <a href="">mentions légals</a>
             </div>
             <div class="col-md-12 text-center">
-
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <p>
                     Copyright &copy;<script>
                         document.write(new Date().getFullYear());
                     </script> All rights reserved | Matthis Ripoche
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
             </div>
         </div>

@@ -21,20 +21,20 @@ include_once('layouts/header.php');
                 </a>
             </div>
             <div class="projets-card entreprise">
-                <a href="bdhpv.php">
-                    <img src="/images/bdhpv.png" alt="">
+                <a href="unity-unreal.php">
+                    <img src="/images/unity-unreal/unity-unreal.jpeg" alt="">
                     <div class="projets-texte">
-                        <h3>BDHPV</h3>
-                        <p>Le projet BDHPV est mon deuxieme projet wordpress au sein de StudioStack.</p>
+                        <h3>Unity vs Unreal Engine</h3>
+                        <p></p>
                     </div>
                 </a>
             </div>
             <div class="projets-card entreprise">
-                <a href="unyc.php">
-                    <img src="/images/unyc.png" alt="">
+                <a href="next-nuxt.php">
+                    <img src="/images/next-nuxt/next-nuxt.jpeg" alt="">
                     <div class="projets-texte">
-                        <h3>Unyc</h3>
-                        <p>Le projet de Unyc est mon premier projet wordpress au sein de StudioStack.</p>
+                        <h3>Next.js vs Nuxt.js</h3>
+                        <p></p>
                     </div>
                 </a>
             </div>

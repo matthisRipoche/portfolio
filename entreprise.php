@@ -1,27 +1,32 @@
 <?php
 include_once('layouts/header.php');
 ?>
+<section class="single" id="unyc">
+    <div class="wrapper">
+        <div class="single-container">
+            <!-- Ajouter une flèche vers le bas -->
+            <div class="image-principal position-relative">
+                <img src="images/logo-studio-stack.svg" alt="StudioStack">
+            </div>
+            <div class="wysiwyg">
+                <p>
+                    Au cours de mes deux années de BTS en alternance, j’ai eu l’opportunité de rejoindre Studio Stack, une jeune entreprise fondée en février 2024 par Nicolas Hanzel, anciennement en micro-entreprise. La création de Studio Stack a aussi permis d’officialiser ma place au sein de la structure et de développer des projets à deux.
 
-<section class="ftco-section" id="entreprise-section">
-    <div class="container">
-        <div class="row justify-content-center py-5 mt-5">
-            <div class="col-md-12 heading-section text-center ftco-animate">
-                <h1 class="big big-2">Entreprise</h1>
-                <img src="images/logo-studio-stack.svg" alt="">
-                <p>
-                    Dans le monde du développement web, je suis fier de faire partie de StudioStack, une petite mais dynamique entreprise spécialisée dans la création de sites internet. Avec une équipe composée de deux experts passionnés, nous nous efforçons de repousser les limites de la conception web pour offrir à nos clients des solutions uniques et efficaces.
                 </p>
                 <p>
-                    Chez StudioStack, nous ne nous contentons pas de créer des sites web ; nous construisons des expériences numériques engageantes et mémorables. Chaque projet est une opportunité pour nous de mettre en œuvre notre créativité, notre expertise technique et notre engagement envers l'excellence.
+                    Nous travaillons ensemble depuis un espace de travail aménagé dans une dépendance chez Nicolas, un environnement calme et propice à la concentration. Ce cadre m’a permis d’évoluer dans de bonnes conditions, avec un vrai suivi au quotidien.
                 </p>
+
                 <p>
-                    Que ce soit pour une start-up ambitieuse cherchant à se démarquer dans un marché compétitif ou pour une entreprise établie souhaitant moderniser son image en ligne, nous sommes là pour transformer des idées en réalité. Notre approche personnalisée et notre attention aux détails garantissent que chaque site que nous créons est parfaitement adapté aux besoins et aux objectifs de nos clients.
+                    Studio Stack est spécialisée dans le développement de sites web avec WordPress, avec un fort accent sur la flexibilité pour les clients. Grâce au plugin Advanced Custom Fields (ACF), on construit des interfaces sur-mesure qui facilitent la gestion de contenu tout en restant techniquement solides.
                 </p>
+
                 <p>
-                    Si vous cherchez à collaborer avec une équipe passionnée et dévouée pour donner vie à votre vision digitale, n'hésitez pas à nous contacter. StudioStack est là pour vous accompagner dans votre parcours vers le succès en ligne.
+                    Les premiers clients de l’entreprise sont surtout deux agences web : Indexel et PencilPark, qui font appel à nous pour développer leurs projets. On travaille aussi avec des clients directs comme Les Incos ou Augustin de Chassy, sur des projets plus complets, parfois plus techniques.
                 </p>
+
                 <p>
-                    Explorez notre portfolio pour découvrir quelques-uns de nos projets récents et n'hésitez pas à nous contacter pour discuter de la manière dont nous pouvons vous aider à atteindre vos objectifs en ligne.
+                    Pendant mon alternance, j’ai principalement participé aux projets WordPress d’Indexel et PencilPark, avec quelques interventions sur des projets plus complexes comme celui des Incos.
                 </p>
 
                 <img src="images/shemastudiostack.png" alt="">
