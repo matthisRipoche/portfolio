@@ -1,0 +1,45 @@
+:root {
+  --bg: #050505;
+  --bg-light: #0f0f0f;
+
+  --components1: #161616;
+  --components2: #1c1c1c;
+  --components3: #222222;
+
+  --border1: #333333;
+  --border2: #404040;
+  --border3: #505050;
+
+  --solid1: #33B074;
+
+  --text: #ededed;
+  --text-green: #3DD68C;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
