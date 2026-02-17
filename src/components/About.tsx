@@ -7,27 +7,12 @@ export default function About() {
                 <h2 className="section-title">À propos de moi</h2>
                 <div className="bio">
                     <p>
-                        Développeur Full Stack passionné avec plus de 5 ans d'expérience dans la création d'applications web robustes et évolutives.
-                        J'aime transformer des idées complexes en solutions simples et élégantes.
+                        Actuellement étudiant en développement web, je suis passionné par la création d'applications modernes et intuitives.
+                        J'aime relever des défis techniques et apprendre de nouvelles technologies pour concevoir des solutions efficaces.
                     </p>
                     <p>
-                        Spécialisé dans l'écosystème JavaScript (React, Next.js, Node.js), je porte une attention particulière à la performance,
-                        l'accessibilité et l'expérience utilisateur. J'ai travaillé sur divers projets, allant de sites e-commerce à des tableaux de bord analytiques complexes.
+                        Développeur Fullstack (React/Node.js) en transition vers l'écosystème Java Spring Boot & Angular. Rigoureux et curieux, je cherche à mettre mon dynamisme et ma capacité d'adaptation au profit d'une alternance centrée sur des architectures logicielles pérennes.
                     </p>
-                    <div className="stats">
-                        <div className="stat-item">
-                            <span className="number">3+</span>
-                            <span className="label">Années d'expérience</span>
-                        </div>
-                        <div className="stat-item">
-                            <span className="number">50+</span>
-                            <span className="label">Projets réalisés</span>
-                        </div>
-                        <div className="stat-item">
-                            <span className="number">20+</span>
-                            <span className="label">Clients satisfaits</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

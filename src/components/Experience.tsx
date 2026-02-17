@@ -2,22 +2,16 @@ import '@/styles/_experience.scss';
 
 const experienceData = [
     {
-        role: "Senior Frontend Developer",
-        company: "TechSolutions Inc.",
-        period: "2023 - Present",
-        description: "En charge du développement de l'interface utilisateur de la plateforme SaaS principale. Migration progressive vers Next.js et amélioration des performances Web Vitals."
+        role: "Alternance",
+        company: "Groupes Eduservices ESPL Angers",
+        period: "2025 - 2026",
+        description: "Développement de composants React et intégration de maquettes. Participation aux réunions techniques et code reviews. Amélioration de l'accessibilité du site vitrine d'un client majeur."
     },
     {
-        role: "Full Stack Developer",
-        company: "Creative Agency",
-        period: "2020 - 2023",
-        description: "Développement de sites vitrines et e-commerce pour divers clients. Mise en place de CMS headless (Strapi) et intégration avec des frontends React."
-    },
-    {
-        role: "Junior Web Developer",
-        company: "StartUp Lab",
-        period: "2018 - 2020",
-        description: "Participation au développement d'une application mobile hybride. Maintenance et évolution de l'API REST existante."
+        role: "Altenance",
+        company: "Studio Stack",
+        period: "2024-2025",
+        description: "Intégration de sites Wordpress en utilisant le plugin ACF, avec une attention spécial sur l'accessibilité des sites."
     }
 ];
 

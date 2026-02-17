@@ -1,9 +1,9 @@
 import '@/styles/_skills.scss';
 
 const skillsData = {
-    Frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5/CSS3", "Redux"],
-    Backend: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
-    Tools: ["Git", "Docker", "VS Code", "Figma", "Jest", "CI/CD"]
+    Frontend: ["React", "TypeScript", "Angular", "HTML5/CSS3"],
+    Backend: ["Java", "SpringBoot", "PostgreSQL", "REST APIs"],
+    Tools: ["Git", "Docker", "CI/CD"]
 };
 
 export default function Skills() {

@@ -15,15 +15,15 @@ export default function Contact() {
                     <ul>
                         <li>
                             <strong>Email:</strong>
-                            <a href="mailto:contact@matthisripoche.dev">contact@matthisripoche.dev</a>
+                            <a href="mailto:matthisripoche@gmail.com">matthisripoche@gmail.com</a>
                         </li>
                         <li>
                             <strong>LinkedIn:</strong>
-                            <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/matthis-ripoche</a>
+                            <a href="https://www.linkedin.com/in/matthis-ripoche-919a771a6/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/matthis-ripoche-919a771a6/</a>
                         </li>
                         <li>
                             <strong>GitHub:</strong>
-                            <a href="#" target="_blank" rel="noopener noreferrer">github.com/matthis-ripoche</a>
+                            <a href="https://github.com/matthisRipoche" target="_blank" rel="noopener noreferrer">https://github.com/matthisRipoche</a>
                         </li>
                     </ul>
                 </div>
