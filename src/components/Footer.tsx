@@ -12,7 +12,7 @@ export default function Footer() {
                     </div>
                     <nav className="legal-nav">
                         <ul>
-                            <li><a href="#">Mentions Légales</a></li>
+                            <li><a href="/legals">Mentions Légales</a></li>
                             <li><a href="#">Politique de Confidentialité</a></li>
                             <li><a href="#">CGU</a></li>
                         </ul>
