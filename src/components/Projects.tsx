@@ -1,25 +1,23 @@
 import '@/styles/_projects.scss';
-import Image from 'next/image';
 
 const projects = [
     {
-        title: "E-commerce Dashboard",
-        description: "Une interface d'administration complète pour gérer les produits, les commandes et les clients. Inclut des graphiques interactifs et des rapports en temps réel.",
-        tags: ["React", "Next.js", "Tailwind CSS", "Recharts"],
-        image: "/public/project1.jpg", // Placeholder - will need actual image or use a color block
+        title: "AceIt",
+        description: "Plateforme de représentation de statistiques de Sport spécialisé dans le volleyball.",
+        tags: ["Java", "Spring Boot", "PostgreSQL", "JavaScript", "Angular"],
+        image: "/public/project1.jpg",
+    },
+    {
+        title: "Angular Todo List",
+        description: "Application de gestion de tâches avec assignation de membre.",
+        tags: ["Angular", "TypeScript", "Sass"],
+        image: "/todolist.png",
         link: "#"
     },
     {
-        title: "Task Management App",
-        description: "Application de gestion de tâches collaborative avec fonctionnalités de glisser-déposer, assignation de membres et notifications en temps réel.",
-        tags: ["Vue.js", "Firebase", "Pinia", "Sass"],
-        image: "/public/project2.jpg",
-        link: "#"
-    },
-    {
-        title: "Weather Forecast API",
-        description: "Service API RESTful fournissant des prévisions météorologiques précises basées sur la géolocalisation de l'utilisateur.",
-        tags: ["Node.js", "Express", "MongoDB", "Docker"],
+        title: "Portail Apprenant",
+        description: "Portail de gestion des apprenants du campus ESPL, permettant le suivi des différents alternants.",
+        tags: ["Node.js", "Express", "MySQL", "Docker", "Next.js"],
         image: "/public/project3.jpg",
         link: "#"
     }
@@ -33,8 +31,11 @@ export default function Projects() {
                 {projects.map((project, index) => (
                     <div className="project-card" key={index}>
                         <div className="project-image">
-                            {/* Placeholder for project image since we don't have real ones yet using a colored div */}
-                            <div className="placeholder-img" style={{ background: `linear-gradient(45deg, var(--components${(index % 3) + 1}), var(--border${(index % 3) + 1}))` }}></div>
+                            {project.image ? (
+                                <img src={project.image} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            ) : (
+                                <div className="placeholder-img" style={{ background: `linear-gradient(45deg, var(--components${(index % 3) + 1}), var(--border${(index % 3) + 1}))` }}></div>
+                            )}
                         </div>
                         <div className="project-content">
                             <h3>{project.title}</h3>
