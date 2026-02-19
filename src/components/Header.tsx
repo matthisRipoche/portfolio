@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <div className='wrapper'>
                 <div className='content'>
-                    <p>Matthis Ripoche</p>
+                    <a href="#" className="logo">Matthis Ripoche</a>
 
                     <nav>
                         <ul>

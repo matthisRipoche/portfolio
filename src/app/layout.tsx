@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.scss";
+import Background from "@/components/Background";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={outfit.className}>
+        <Background />
         {children}
       </body>
     </html>

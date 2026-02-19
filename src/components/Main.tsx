@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero';
+import ScrollReveal from '@/components/ScrollReveal';
 import About from '@/components/About';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
@@ -11,11 +12,11 @@ export default function Main() {
         <main>
             <div className="wrapper">
                 <Hero />
-                <About />
-                <Projects />
-                <Skills />
-                <Experience />
-                <Contact />
+                <ScrollReveal><About /></ScrollReveal>
+                <ScrollReveal><Projects /></ScrollReveal>
+                <ScrollReveal><Skills /></ScrollReveal>
+                <ScrollReveal><Experience /></ScrollReveal>
+                <ScrollReveal><Contact /></ScrollReveal>
             </div>
         </main>
     );
