@@ -80,17 +80,6 @@
                 font-size: 1rem;
             }
 
-            .btn-primary {
-                background-color: var(--solid1);
-                color: var(--bg);
-                border: 2px solid var(--solid1);
-
-                &:hover {
-                    background-color: transparent;
-                    color: var(--solid1);
-                }
-            }
-
             .btn-secondary {
                 background-color: transparent;
                 color: var(--text);

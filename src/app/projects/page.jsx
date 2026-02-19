@@ -1,10 +1,10 @@
 "use client";
 import Link from 'next/link';
-import '@/styles/_legals.scss';
+import '@/styles/_projects.scss';
 
-export default function Legals() {
+export default function Projects() {
     return (
-        <section className="legals-section">
+        <section className="projects-section">
             <div className="content">
                 <h1>Mentions Légales</h1>
 
@@ -22,13 +22,13 @@ export default function Legals() {
                 <div className="legal-block">
                     <h2>2. Hébergement</h2>
                     <p>
-                        Ce site est hébergé par <strong>OVH</strong><br />
-                        2 rue Kellermann<br />
-                        59100 Roubaix<br />
-                        France
+                        Ce site est hébergé par <strong>Vercel Inc.</strong><br />
+                        340 S Lemon Ave #4133<br />
+                        Walnut, CA 91789<br />
+                        États-Unis
                     </p>
                     <p>
-                        <a href="https://www.ovh.com" target="_blank" rel="noopener noreferrer">https://www.ovh.com</a>
+                        <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">https://vercel.com</a>
                     </p>
                 </div>
 

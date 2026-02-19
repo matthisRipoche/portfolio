@@ -1,24 +1,25 @@
 import '@/styles/_projects.scss';
+import Link from 'next/link';
 
 const projects = [
     {
         title: "AceIt",
         description: "Plateforme de représentation de statistiques de Sport spécialisé dans le volleyball.",
-        tags: ["Java", "Spring Boot", "PostgreSQL", "JavaScript", "Angular"],
-        image: "/public/project1.jpg",
+        tags: ["API REST", "Java", "Spring Boot", "TypeScript", "Angular", "PostgreSQL", "Docker"],
+        image: "/ace-it.png",
     },
     {
         title: "Angular Todo List",
         description: "Application de gestion de tâches avec assignation de membre.",
-        tags: ["Angular", "TypeScript", "Sass"],
+        tags: ["TypeScript", "Angular"],
         image: "/todolist.png",
         link: "#"
     },
     {
         title: "Portail Apprenant",
         description: "Portail de gestion des apprenants du campus ESPL, permettant le suivi des différents alternants.",
-        tags: ["Node.js", "Express", "MySQL", "Docker", "Next.js"],
-        image: "/public/project3.jpg",
+        tags: ["Next.js", "Express", "Node.js", "MySQL"],
+        image: "/portail-apprenant.png",
         link: "#"
     }
 ];
@@ -50,6 +51,7 @@ export default function Projects() {
                     </div>
                 ))}
             </div>
+            <Link href="/projects" className="projects-link btn-primary">Voir mes autres projets</Link>
         </section>
     );
 }

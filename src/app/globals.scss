@@ -46,3 +46,22 @@ li {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  background-color: var(--solid1);
+  color: var(--bg);
+  border: 2px solid var(--solid1);
+
+  &:hover {
+      background-color: transparent;
+      color: var(--solid1);
+  }
+}
+
