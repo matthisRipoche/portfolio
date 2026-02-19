@@ -5,10 +5,14 @@ export default function Hero() {
     return (
         <section className="hero">
             <div className="infos">
+                <div className="availability-badge">
+                    <span className="dot"></span>
+                    Recherche d'alternance
+                </div>
                 <span className="greeting">Bonjour, je suis</span>
                 <h1>Matthis Ripoche</h1>
                 <p className="description">
-                    Étudiant en développement web passionné, à la recherche d'une alternance pour mettre mes compétences au service de vos projets.
+                    Étudiant en développement web passionné. <strong>Je recherche activement une alternance</strong> pour mettre mes compétences au service de vos projets.
                 </p>
                 <div className="social-links">
                     <a href="https://github.com/matthisRipoche" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
