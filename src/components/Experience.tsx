@@ -8,7 +8,7 @@ const experienceData = [
         description: "Développement de composants React et intégration de maquettes. Participation aux réunions techniques et code reviews. Amélioration de l'accessibilité du site vitrine d'un client majeur."
     },
     {
-        role: "Altenance",
+        role: "Alternance",
         company: "Studio Stack",
         period: "2024-2025",
         description: "Intégration de sites Wordpress en utilisant le plugin ACF, avec une attention spécial sur l'accessibilité des sites."

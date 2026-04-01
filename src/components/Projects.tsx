@@ -6,21 +6,19 @@ const projects = [
         title: "AceIt",
         description: "Plateforme de représentation de statistiques de Sport spécialisé dans le volleyball.",
         tags: ["API REST", "Java", "Spring Boot", "TypeScript", "Angular", "PostgreSQL", "Docker"],
-        image: "/ace-it.png",
+        image: "/ace-it.png"
     },
     {
         title: "Angular Todo List",
         description: "Application de gestion de tâches avec assignation de membre.",
         tags: ["TypeScript", "Angular"],
-        image: "/todolist.png",
-        link: "#"
+        image: "/todolist.png"
     },
     {
         title: "Portail Apprenant",
         description: "Portail de gestion des apprenants du campus ESPL, permettant le suivi des différents alternants.",
         tags: ["Next.js", "Express", "Node.js", "MySQL"],
-        image: "/portail-apprenant.png",
-        link: "#"
+        image: "/portail-apprenant.png"
     }
 ];
 
@@ -46,12 +44,10 @@ export default function Projects() {
                                     <span key={tagIndex} className="tag">{tag}</span>
                                 ))}
                             </div>
-                            <a href={project.link} className="project-link">Voir le projet</a>
                         </div>
                     </div>
                 ))}
             </div>
-            <Link href="/projects" className="projects-link btn-primary">Voir mes autres projets</Link>
         </section>
     );
 }
