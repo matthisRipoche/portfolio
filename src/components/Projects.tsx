@@ -6,13 +6,20 @@ const projects = [
         title: "AceIt",
         description: "Plateforme de représentation de statistiques de Sport spécialisé dans le volleyball.",
         tags: ["API REST", "Java", "Spring Boot", "TypeScript", "Angular", "PostgreSQL", "Docker"],
-        image: "/ace-it.png"
+        image: "/ace-it.png",
+        links: [
+            { url: 'https://github.com/matthisRipoche/ace-it-fe', label: 'Projet Frontend' },
+            { url: 'https://github.com/matthisRipoche/ace-it-be', label: 'Projet Backend' }
+        ]
     },
     {
         title: "Angular Todo List",
         description: "Application de gestion de tâches avec assignation de membre.",
         tags: ["TypeScript", "Angular"],
-        image: "/todolist.png"
+        image: "/todolist.png",
+        links: [
+            { url: 'https://github.com/matthisRipoche/angular-to-do-list', label: 'Voir sur GitHub' }
+        ]
     },
     {
         title: "Portail Apprenant",
@@ -44,6 +51,15 @@ export default function Projects() {
                                     <span key={tagIndex} className="tag">{tag}</span>
                                 ))}
                             </div>
+                            {project.links && project.links.length > 0 && (
+                                <div className="project-links" style={{ display: 'flex', gap: '10px', marginTop: '15px' }}>
+                                    {project.links.map((link, linkIndex) => (
+                                        <a href={link.url} key={linkIndex} target="_blank" rel="noopener noreferrer" className="project-link">
+                                            {link.label}
+                                        </a>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     </div>
                 ))}

@@ -46,14 +46,6 @@
                     border-radius: 6px;
                     border: 1px solid var(--border2);
                     font-size: 0.95rem;
-                    transition: all 0.2s ease;
-
-                    &:hover {
-                        background-color: var(--solid1);
-                        border-color: var(--solid1);
-                        color: var(--bg);
-                        transform: translateY(-2px);
-                    }
                 }
             }
         }
